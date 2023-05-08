@@ -1,0 +1,123 @@
+.nav__list{
+    font: 1.2em fantasy;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav__item:not(:last-child){
+    margin-right: 15px;
+}
+
+.nav__item{
+    margin-top: 5px;
+}
+
+.logo-image{
+    height: 80px;
+}
+.nav__item:hover {
+    font-weight: bolder;
+}
+
+.logo-image{
+    float: left !important;
+    border-radius: 8px;
+    margin-right: 10px;
+    max-width: 60px;
+    max-height: 5%;
+}
+.header__{
+    background-color: rgb(250, 131, 104);
+    display: flex;
+    border-radius: 8px;
+    height: 10%;
+
+}
+
+@media screen and (max-width:660px){
+    .logo-image{
+        display: none;
+    }
+}
+
+
+.advert{
+    width: 100%; 
+    max-width: 1200px;
+}
+
+.main-image1{
+    margin-top: 8px;
+    margin: 2%;
+    width: 46%;
+    border-radius: 8px;
+}
+
+.main-image2{
+    margin-top: 10px;
+    width: 46%;
+    margin: 2%;
+    border-radius: 8px;
+    float: left;
+}
+
+@media screen and (max-width:320px){
+    .main-image1{
+        margin-top: 8px;
+        margin: 2%;
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .main-image2{
+        margin-top: 10px;
+        width: 100%;
+        margin: 2%;
+        margin-bottom: 4%;
+        border-radius: 8px;
+    }
+}
+
+.main-image1:hover {
+    outline: 3px solid #982c2c;
+}
+
+.main-image2:hover {
+    outline: 3px solid #982c2c;
+}
+
+.cards{
+    display: flex;
+    outline: 2px solid #000000;
+    width: 96%; 
+    max-width: 1200px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.cards:hover {
+    background-color:rgba(210, 203, 203, 0.486);
+}
+
+.japan_img{
+    aspect-ratio: 1 / 1;
+    margin: 2%;
+    width: 10%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+.japan_text{
+    float: right;
+    margin-right: 5%;
+    font: 100% fantasy;
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none;
+}

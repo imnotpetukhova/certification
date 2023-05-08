@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = 'style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Онлайн магазин альбомов -->
+    
+    <!-- Верхняя панель - Логотип + Навигационное меню + Контакты(ссылка)-->
+    <div class = "header__">
+        <img src=".\images\Изображения\origin\logo (2).svg" class="logo-image"/>
+        <ul class = 'nav__list'>
+            <strong><a href="index.html"><li class = 'nav__item'>Главная</li></a></strong>
+            <a href="./pages/1.html"><li class = 'nav__item'>Японские релизы</li></a>
+            <a href="./pages/2.html"><li class = 'nav__item'>Корейские релизы</li></a>
+            <a href="./pages/3.html"><li class = 'nav__item'>Контакты</li></a>
+        </ul>
+    </div>
+    <!-- Рекламный баннер-->
+    <div class = 'advert'>
+        <picture>
+            <source media="(min-width: 1200px)" srcset=".\images\Изображения\resizeto1920\ad.jpg">
+            <source media="(min-width: 768px)" srcset=".\images\Изображения\resizeto1200\ad.jpg">
+            <source media="(max-width: 767px)" srcset=".\images\Изображения\resizeto767\ad.jpg">
+            <img src=".\images\Изображения\resizeto1920\ad.jpg" alt="mount" class="main-image1"/>
+        </picture>
+
+        <picture>
+            <source media="(min-width: 1200px)" srcset=".\images\Изображения\resizeto1920\ad2.jpg">
+            <source media="(min-width: 768px)" srcset=".\images\Изображения\resizeto1200\ad2.jpg">
+            <source media="(max-width: 767px)" srcset=".\images\Изображения\resizeto767\ad2.jpg">
+            <img src=".\images\Изображения\resizeto1920\ad2.jpg" alt="mount" class="main-image2"/>
+        </picture>
+    </div>
+
+    <div class = 'all_cards'>
+        <a href = './pages/1.html'>
+            <div class = 'cards'>
+                <img class = 'japan_img'src = '.\images\Изображения\afteroptimization\japan.png'>
+                <h2 class = 'japan_text'>Японские релизы альбомов</h2>
+            </div>
+        </a>
+
+        <br>
+
+        <a href = './pages/2.html'>
+            <div class = 'cards'>
+                <img class = 'japan_img'src = '.\images\Изображения\afteroptimization\korea.jpg'>
+                <h2 class = 'japan_text'>корейские релизы альбомов</h2>
+            </div>
+        </a>
+        <br>
+    </div>
+
+</body>
+</html>
