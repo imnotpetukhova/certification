@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = 'style_3.css'>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "header__">
+        <img src="..\images\Изображения\origin\logo (2).svg" class="logo-image"/>
+        <ul class = 'nav__list'>
+            <a href="../index.html"><li class = 'nav__item'>Главная</li></a>
+            <a href="1.html"><li class = 'nav__item'>Японские релизы</li></a>
+            <a href="2.html"><li class = 'nav__item'>Корейские релизы</li></a>
+            <a href="3.html"><li class = 'nav__item'>Контакты</li></a>
+        </ul>
+    </div>
+
+    <div class = "body__cards">
+        <div class = "minicards">
+            <ul>
+                <li><img height="150" onclick="this.className = (this.className == 'img' ? 'img__active' : 'img')" class = 'img' src="..\images\Изображения\origin\limitless_1.png"></li>
+                <li><img height="150" onclick="this.className = (this.className == 'img' ? 'img__active' : 'img')" class = 'img' src="..\images\Изображения\origin\limitless_2.webp"></li>
+                
+            </ul>
+        </div>
+        <img class = 'card_image' src = '..\images\Изображения\origin\limitless_2.webp' alt = 'album prewiew'>
+        <div class = "minicards2">
+            <ul>
+                <li><img height="150" onclick="this.className = (this.className == 'img' ? 'img__active' : 'img')" class = 'img' src="..\images\Изображения\origin\limitless_1.png"></li>
+                <li><img height="150" onclick="this.className = (this.className == 'img' ? 'img__active' : 'img')" class = 'img' src="..\images\Изображения\origin\limitless_2.webp"></li>
+            </ul>
+        </div>
+        <div class = 'full_description'>
+            <h1 class = 'card_paragraf'>TWICE - Perfect World</h1>
+                <ul class = 'description'>
+                    <li>Коробка</li>
+                    <li>Фотобук 72стр</li>
+                    <li>CD</li>
+                    <li>Лирик-постер</li>
+                    <li>ID-фотокарта (1 из 8)</li>
+                    <li>Фотокарта</li>
+                </ul>
+                <button onclick="document.location='buy.html'" class = 'buy_button' type = 'button'> Купить </button>
+        </div>
+    </div>
+</body>
+</html>
