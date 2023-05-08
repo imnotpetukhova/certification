@@ -1,0 +1,157 @@
+.nav__list{
+    font: 1.2em fantasy;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav__item:not(:last-child){
+    margin-right: 15px;
+}
+
+.nav__item{
+    margin-top: 5px;
+}
+
+.nav__item:hover {
+    font-weight: bolder;
+}
+
+.logo-image{
+    float: left !important;
+    border-radius: 8px;
+    margin-right: 10px;
+    max-width: 60px;
+    max-height: 5%;
+}
+.header__{
+    background-color: rgb(250, 131, 104);
+    display: flex;
+    border-radius: 8px;
+    height: 10%;
+
+}
+
+@media screen and (max-width:660px){
+    .logo-image{
+        display: none;
+    }
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.body__cards{
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    height: 80%;
+    margin: 10px auto;
+    position: relative;
+}
+
+.card_image{
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-bottom: 5%;
+    width: 40%;
+    height: inherit;
+}
+
+.minicards{
+    position: absolute;
+    left: 0;
+}
+
+.minicards li{
+  margin-top: 5%;
+  margin-right: 5%;
+  list-style-type: none;
+}
+
+.minicards li img{
+    border-radius: 5px;
+    width: 10%;
+    height: auto;
+}
+
+.img__active {
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.card_paragraf{
+    margin-top: 5%;
+    margin-left: 5%;
+    font: 100% fantasy;
+}
+.minicards2{
+    display: none;
+}
+.description{
+    font-size: 90%;
+}
+.description li{
+    font: 90% fantasy;
+}
+.full_description{
+    margin: 5% auto;
+    margin: 8%;
+
+}
+.buy_button{
+    margin-left: 20%;
+    background-color: rgba(237, 234, 236, 0.514);
+    border-color: #000;
+    width: 80%
+}
+
+.buy_button:hover{
+    background-color: rgba(159, 5, 5, 0.877);
+}
+
+@media screen and (max-width:500px){
+    .body__cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .minicards{
+        display: none;
+    }
+
+    .minicards2{
+        display: block;
+    }
+
+    .minicards2 ul{
+        display: flex; 
+    }
+    
+    .minicards2 li{
+        list-style-type: none;
+    }
+
+    .card_image{
+        width: 80%;
+        margin: 10%;
+    }
+
+    .minicards2 li img{
+        margin-right: 5px;
+        border-radius: 5px;
+        width: 60px;
+        height: auto;
+    }
+    .buy_button{
+        margin-left: 10%;
+        width: 50%;
+        background-color: rgba(218, 218, 218, 0.877);
+        border-color: #000;
+    }
+}

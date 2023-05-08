@@ -1,0 +1,88 @@
+.nav__list{
+    font: 1.2em fantasy;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav__item:not(:last-child){
+    margin-right: 15px;
+}
+
+.nav__item{
+    margin-top: 5px;
+}
+
+.nav__item:hover {
+    font-weight: bolder;
+}
+
+.logo-image{
+    float: left !important;
+    border-radius: 8px;
+    margin-right: 10px;
+    max-width: 60px;
+    max-height: 5%;
+}
+.header__{
+    background-color: rgb(250, 131, 104);
+    display: flex;
+    border-radius: 8px;
+    height: 10%;
+
+}
+
+@media screen and (max-width:660px){
+    .logo-image{
+        display: none;
+    }
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.body__card{
+    margin-top: 8px;
+    border-radius: 8px;
+    outline: 1px solid #000000;
+    flex-direction: column;
+    padding: 2%;
+}
+.body__card span{
+    margin-right: 30px;
+    font: 100% fantasy;
+}
+
+.title{
+    font: 150% fantasy;
+}
+
+.text{
+    
+    min-width: 96%;
+    max-width: 96%;
+    max-height: 160px;
+    height: inherit;
+}
+.submit{
+    background-color:rgba(215, 213, 211, 0.393);
+    border-radius: 4px;
+
+}
+
+.submit:hover{
+    background-color:rgba(146, 145, 143, 0.393);
+}
+
+.table{
+    border-radius: 10px;
+    box-shadow: 0 0 1px #000;
+}
+
+th, td{
+    padding: 10px;
+}
